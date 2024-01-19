@@ -1,0 +1,448 @@
+body {
+    margin: 20px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 90px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+nav ul {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 20px
+}
+
+nav li {
+    list-style: none;
+}
+
+.logo {
+
+    font-size: 21px;
+    font-weight: 800;
+}
+
+span {
+    color: #FF5400;
+}
+
+/* here banner part */
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url("/img/Images/Group\ 13.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+
+
+}
+
+.bannet-title {
+
+
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-text {
+
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 16px;
+}
+
+.banner-button {
+
+    font-size: 16px;
+    background-color: #ffffff61;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex
+}
+
+.btn-parimary {
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+
+}
+
+.btn-orang {
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    background-color: #FF5400;
+    color: white;
+}
+
+/* Here start POpuler-part */
+.Popular {
+    display: flex;
+}
+
+.Popular-title {
+
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.Popular-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
+
+}
+
+.Popular-text-list ul li {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
+}
+
+.btn-Read {
+    background: #FF5400;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin-top: 32px;
+
+}
+
+.your-destination {
+    text-align: center;
+}
+
+/* here start about style */
+.about-title {
+    color: #131318;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.hotel-all {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    height: 500px;
+    margin-left: 20px;
+
+
+}
+
+.hotel {
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    border: 1px rgba(251, 181, 99, 0.20) solid;
+    padding: 20px;
+
+
+}
+
+.service {
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    border: 1px rgba(41, 206, 246, 0.20) solid;
+    padding: 20px;
+
+}
+
+.price {
+    grid-column: 1 / span1;
+    /* here this means 2 Tar spece for 1 */
+    background: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+    border: 1px rgba(233, 68, 68, 0.20) solid;
+    padding: 20px;
+    height: 206px;
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+
+/* here start  Deals & Discounts  style*/
+.discount-title {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.discount-text {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+
+}
+.btn-pack{
+    color: white;
+    background: #FF5400;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    margin-left: 42%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+/* perfect-part*/
+.perfect-place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.perfect-place-Ture {
+
+    height: 500px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.perfect-place-title {
+
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+
+
+}
+
+.perfect-place-text {
+
+    color: #5A5A5D;
+}
+
+.Perfect-Place-img {
+
+    width: 100%;
+
+    background-image: url("/img/Images/Group\ 40089.png");
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+}
+
+.mountain {
+
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-top: 50px;
+
+
+}
+
+audio {
+    width: 100%;
+}
+
+audio {
+    width: 88%;
+    height: 13px;
+}
+
+/* Newsletter div style satart  */
+.newsletter {
+    display: flex;
+    gap: 14px;
+    width: 100%;
+}
+
+.newsletter-from {
+    height: 317px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px #FF5400 solid;
+}
+
+.newsletter-from input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+
+}
+
+.btn-sub {
+    border: none;
+    background: #FF5400;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 2px 100px;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+}
+
+.news-title {
+
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-text {
+
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.newsletter-img {
+    background-image: url("/img/Images/Rectangle\ 8.png");
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.discount-tour-to-satorini {
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.discount-tour-to-satorini-1 {
+    background-image: url("/img/Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.discount-tour-to-satorini-2 {
+    background-image: url("/img/Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    padding-top: 7px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sub-discount-tour-to-satorini-2 {
+    background-color: #ffffffcf;
+    width: 50%;
+    height: 311px;
+   padding-top: 20px; 
+    padding-left: 10px;
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.sub-discount-tour-to-satorini-2 ul li {
+    list-style: none;
+    display: inline;
+
+}
+
+.sub-discount-tour-to-satorini {
+    background-color: #ffffffcf;
+    width: 50%;
+    float: right;
+    height: 311px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 61px 159px 0px 0px;
+    border-radius: 12px;
+
+}
+
+.sub-discount-tour-to-satorini ul li {
+    list-style: none;
+    display: inline;
+
+}
+
+.price-for-book {
+
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.book-now {
+
+    color: white;
+    font-size: 20px;
+    padding: 6px 25px;
+    font-weight: 800;
+    background: #FF5400;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+/* here start footer style */
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(245, 238, 231);
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer hr {
+    width: 50%;
+
+
+}
